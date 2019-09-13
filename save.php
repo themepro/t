@@ -5,7 +5,7 @@ if (isset($_POST['name']) {
         return FALSE;
     }else{
     //Make Variables Safe
-    mysql_connect('localhost', 'root', 'password');
+    mysql_connect('tuhin0680@yahoo.com', 'root', 'password');
     $name = mysql_real_escape_string(trim($_POST['name']);
     $email = mysql_real_escape_string(trim($_POST['email']);
     $message = mysql_real_escape_string(trim($_POST['message']);
